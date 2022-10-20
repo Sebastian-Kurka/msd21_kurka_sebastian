@@ -16,14 +16,16 @@
   + mit ```git commit -m "Kurzbeschreibung"``` kann man einen commit einschlieslich einer Kurzbeschreibung 
     der Änderungen vornehmen
 
-+ ### git status 
++ ### git status
   + zeigt den Status aller files im lokalen Reposetory an. (ob neu, bearbeitet oder untracked) 
+    ![git status screenshot](Screenshots/git_status.png)
 
 + ### git add
    + ```git add file_name``` fügt die Datei "file_name" zur staging Area hinzu
 
 + ### git log
   + hiermit kann man den Verlauf einsehen. Wer hat wann was geaddet, comitted oder gepusht,...
+    ![git log screenshot](Screenshots/git_log.png)
 
 + ### git diff
   + mit git diff kann man sich die Unterschiede (Differenzen) zwischen der Aktuellen und der bearbeiteten 
