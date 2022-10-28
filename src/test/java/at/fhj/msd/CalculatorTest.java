@@ -46,6 +46,14 @@ public class CalculatorTest {
         Assertions.assertEquals(Double.NEGATIVE_INFINITY, calc.divide(-20.0 , 0.0));
     }
 
+    @Test
+    void testFacttorial() {
+
+        Assertions.assertEquals(120, calc.factorial(5));
+        Assertions.assertEquals(24, (4*3*2));
+        Assertions.assertEquals(0, calc.factorial(-10));
+    }
+
 
 
 
