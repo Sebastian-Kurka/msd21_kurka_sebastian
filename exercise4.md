@@ -14,7 +14,11 @@
   - testet, ob bei zwei Werten welche miteinander multipliziert werden das richtige Ergebnis berechnet wird.
   - testet, ob Multiplikationen min 0 funktionieren.
 
-- testDevide
+- testDivide
   - testet, ob Divisionen das richtige Ergebnis liefern.
   - Testet, ob Divisionen mit 0 keine Fehler verursachen und je nach den gegebenen Werten entweder -Unendlich 
     oder +Unendlich zurück gibt.
+
+- testFactorial
+  - testet, ob die Methode ```factorial``` das richtige Ergebnis liefert.
+  - testet, ob bei einer eingabe <= 0 der Returnwert 0 ist.

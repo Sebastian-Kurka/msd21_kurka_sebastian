@@ -49,10 +49,9 @@ public class CalculatorTest {
     void testFacttorial() {
 
         Assertions.assertEquals(120, calc.factorial(5));
-        Assertions.assertEquals(24, (4*3*2));
+        Assertions.assertEquals(120, (5*4*3*2));
         Assertions.assertEquals(0, calc.factorial(-10));
     }
-
 
 
 
