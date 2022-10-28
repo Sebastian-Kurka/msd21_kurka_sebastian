@@ -18,7 +18,18 @@ public class Calculator {
 
     public int factorial(int number) {
 
-        return 0;
+        if(number > 1){
+
+            int result = 1;
+            for (; number >= 1; number--){
+
+                result *= number;
+            }
+            return result;
+
+        } else{
+            return 0;
+        }
 
     }
 }
