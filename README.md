@@ -34,3 +34,7 @@ Simply run the program, no user input required.
 
 - [exercise1.md](exercise1.md)
 - [exercise2.md](exercise2.md)
+- [exercise3.md](exercise3.md)
+- [exercise4.md](exercise4.md)
+
+
